@@ -35,7 +35,7 @@ which would get campaigns from external JSON API([example link](https://mockbin.
 You're free to add gems you need(including those which are part of Rails).
 
 3. You don't have to put all your code into one class. Please use your best judgment to split the code up into separate components.
-4. **Note** Don't fork this repository. Create you own repository and send us a link to it. You may describe some of the assumptions you had in the README file of your repository.
+4. **Note** Don't fork this repository. Create you own public repository and send us a link to it. You may describe some of the assumptions you had in the README file of your repository.
 
 ### Service output format
 You're free to choose the output format which makes sense to you, we suggest the following:
