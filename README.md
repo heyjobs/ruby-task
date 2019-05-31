@@ -15,14 +15,14 @@ We publish our jobs to different marketing sources. To keep track of where the p
 - `external_reference`: corresponds to Ad’s ‘reference’
 - `ad_description`: text description of an Ad
 
-Due to various types of failures (_Ad Service_ inavailability, errors in campaign details etc.)
+Due to various types of failures (_Ad Service_ unavailability, errors in campaign details etc.)
 local `Campaigns` can fall out of sync with _Ad Service_.
 So we need a way to detect discrepancies between local and remote state.
 
 ### TODOs
 1. Develop a [Service](https://medium.com/selleo/essential-rubyonrails-patterns-part-1-service-objects-1af9f9573ca1)(as in _Service Object_ pattern),
 which would get campaigns from external JSON API([example link](https://mockbin.org/bin/fcb30500-7b98-476f-810d-463a0b8fc3df)) and detect discrepancies between local and remote state.
-2. The purpose of the task is to work on business logic, so please don't create a Rails app. Rather stucture your project the following way:
+2. The purpose of the task is to work on business logic, so please don't create a Rails app. Rather structure your project the following way:
 ```
 |-- .ruby-version
 |-- .ruby-gemset
@@ -32,7 +32,7 @@ which would get campaigns from external JSON API([example link](https://mockbin.
 |-- spec
     |-- specs go here
 ```
-You're free to add gems you need(including those which are part of Rails).
+You're free to add gems you need (including those which are part of Rails).
 
 3. You don't have to put all your code into one class. Please use your best judgment to split the code up into separate components.
 4. **Note** Don't fork this repository. Create you own public repository and send us a link to it. You may describe some of the assumptions you had in the README file of your repository.
